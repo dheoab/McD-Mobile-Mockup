@@ -1,0 +1,28 @@
+services:
+  app-service:
+    build: ./services/app
+    container_name: app-service
+    ports:
+      - "4002:4002"
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - NODE_ENV=${NODE_ENV}
+  user-service:
+    build: ./services/users
+    container_name: user-service
+    ports:
+      - "4001:4001"
+    environment:
+      - MONGOCLIENT=${MONGOCLIENT}
+      - NODE_ENV=${NODE_ENV}
+  orchestrator-service:
+    build: ./orchestrators-graphql
+    container_name: orchestrator-service
+    ports:
+      - "80:4000"
+    environment:
+      - USER_BASE_URL=${USER_BASE_URL}
+      - ITEMS_BASE_URL=${ITEMS_BASE_URL}
+      - BASE_PORT_REDIS=${BASE_PORT_REDIS}
+      - BASE_URL_REDIS=${BASE_URL_REDIS}
+      - NODE_ENV=${NODE_ENV}

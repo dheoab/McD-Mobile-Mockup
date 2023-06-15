@@ -1,0 +1,210 @@
+{
+  "items": [
+    {
+      "name": "Big Mac",
+      "description": "Burger Ikonik McDonald's. Dua lapis daging sapi gurih disajikan dengan saus spesial, selada segar, keju, acar timun, bawang, diapit roti bertabur wijen",
+      "price": 40000,
+      "imgURL": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/nhj93oZApoMavF1lC6Wm.png",
+      "authorId": 1,
+      "categoryId": 1,
+      "createdAt": "2023-03-25T12:00:00Z",
+      "updatedAt": "2023-03-25T12:00:00Z"
+    },
+    {
+      "name": "Double Cheeseburger",
+      "description": "Perpaduan roti burger dengan 2 Lapisan daging gurih dan 2 lapisan keju disajikan dengan saus tomat, acar, potongan bawang dan mustard",
+      "price": 38000,
+      "imgURL": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/uku5BjLSPYQswEWsXVFV.png",
+      "authorId": 1,
+      "categoryId": 1,
+      "createdAt": "2023-03-25T12:00:00Z",
+      "updatedAt": "2023-03-25T12:00:00Z"
+    },
+    {
+      "name": "McFlurry Choco",
+      "description": "Es krim vanilla lembut dengan campuran bubuk coklat",
+      "price": 10000,
+      "imgURL": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2022/bcp2nCLBZXHCLkf81S2q.png",
+      "authorId": "2",
+      "categoryId": 3,
+      "createdAt": "2023-03-25T12:00:00Z",
+      "updatedAt": "2023-03-25T12:00:00Z"
+    },
+    {
+      "name": "McNuggets",
+      "description": "Nugget ayam McDonald's dan saus Sweet & Sour atau Barbeque pilihan Anda. Tersedia dalam pilihan 4, 6 dan 9 pieces",
+      "price": 20000,
+      "imgURL": "https://nos.jkt-1.neo.id/mcdonalds/foods/September2019/qFoLKbSe1R3OJ75zAm4B.png",
+      "authorId": 2,
+      "categoryId": 2,
+      "createdAt": "2023-03-25T12:00:00Z",
+      "updatedAt": "2023-03-25T12:00:00Z"
+    },
+    {
+      "name": "Sausage Wrap",
+      "description": "Perpaduan sosis ayam, scrambled egg, dan keju gurih dalam balutan tortilla yang lembut. Tersedia dari jam 5-11 pagi.",
+      "price": 18000,
+      "imgURL": "https://nos.jkt-1.neo.id/mcdonalds/foods/August2019/oOqk0inorO5YNcw5S2iG.png",
+      "authorId": 2,
+      "categoryId": 1,
+      "createdAt": "2023-03-25T12:00:00Z",
+      "updatedAt": "2023-03-25T12:00:00Z"
+    },
+    {
+      "name": "PaNas1",
+      "description": "Ayam Goreng khas McDonald's dengan nasi hangat dan minuman FruitTea lemon yang menyegarkan. Tersedia dalam pilihan Ayam Krispy atau Spicy",
+      "price": 34000,
+      "imgURL": "https://nos.jkt-1.neo.id/mcdonalds/foods/September2019/QhZI0YBTJ3VLWbAqcdIK.png",
+      "authorId": 2,
+      "categoryId": 2,
+      "createdAt": "2023-03-25T12:00:00Z",
+      "updatedAt": "2023-03-25T12:00:00Z"
+    },
+    {
+      "name": "testing 11",
+      "categoryId": "3",
+      "description": "testing 11",
+      "price": "7777",
+      "imgURL": "testing 11",
+      "id": 7
+    },
+    {
+      "name": "Testing6",
+      "categoryId": "1",
+      "description": "Testing6",
+      "price": "66",
+      "imgURL": "Testing66",
+      "id": 8
+    },
+    {
+      "name": "Testing7",
+      "categoryId": "1",
+      "description": "Testing 7",
+      "price": "77",
+      "imgURL": "Testing77",
+      "id": 9
+    },
+    {
+      "name": "testing9",
+      "categoryId": "1",
+      "description": "Testing9",
+      "price": "99",
+      "imgURL": "Testing9",
+      "id": 12
+    },
+    {
+      "name": "testing999-EditEdit",
+      "categoryId": "1",
+      "description": "Testing999-EditEdit",
+      "price": "999",
+      "imgURL": "testing999-EditEdit",
+      "id": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "BURGERSANDWICH"
+    },
+    {
+      "id": 2,
+      "name": "CHICKENFISH"
+    },
+    {
+      "id": 3,
+      "name": "ICECREAM"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "itemId": 1,
+      "name": "Big Mac Bun"
+    },
+    {
+      "id": 2,
+      "itemId": 1,
+      "name": "100% Beef Patty"
+    },
+    {
+      "id": 3,
+      "itemId": 1,
+      "name": "Shredded Lettuce"
+    },
+    {
+      "id": 4,
+      "itemId": 1,
+      "name": "Big Mac Sauce"
+    },
+    {
+      "id": 5,
+      "itemId": 1,
+      "name": "Pasteurized Process American Cheese"
+    },
+    {
+      "id": 6,
+      "itemId": 1,
+      "name": "Pickle Slices"
+    },
+    {
+      "id": 7,
+      "itemId": 1,
+      "name": "Onion"
+    },
+    {
+      "id": 8,
+      "itemId": 2,
+      "name": "Quarter Pound Bun"
+    },
+    {
+      "id": 9,
+      "itemId": 2,
+      "name": "100% Beef Patty"
+    },
+    {
+      "id": 10,
+      "itemId": 2,
+      "name": "Ketchup"
+    },
+    {
+      "id": 11,
+      "itemId": 2,
+      "name": "Pasteurized Process American Cheese"
+    },
+    {
+      "id": 12,
+      "itemId": 2,
+      "name": "Pickle Slices"
+    },
+    {
+      "id": 13,
+      "itemId": 2,
+      "name": "Onion"
+    },
+    {
+      "id": 14,
+      "itemId": 2,
+      "name": "Mustard"
+    },
+    {
+      "id": 15,
+      "itemId": 3,
+      "name": "Oreo Cookie"
+    },
+    {
+      "id": 16,
+      "itemId": 3,
+      "name": "Milk"
+    },
+    {
+      "id": 17,
+      "itemId": 4,
+      "name": "Chicken "
+    },
+    {
+      "id": 18,
+      "itemId": 4,
+      "name": "Flour "
+    }
+  ]
+}
